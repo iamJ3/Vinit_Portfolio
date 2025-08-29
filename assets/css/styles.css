@@ -1041,14 +1041,14 @@ body.light-theme {
   }
 
   .contact__container {
-    display: grid;
-    grid-template-columns: 220px 340px;
+  /*👉  display: grid;
+    grid-template-columns: 220px 340px;👈*/
     column-gap: 2rem;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .contact__info {
-    grid-template-columns: 200px;
+    /* grid-template-columns: 200px; */
     gap: 1rem;
   }
 
@@ -1192,11 +1192,11 @@ body.light-theme {
   .testimonial__card {
     padding: 1.5rem 2rem;
   }
-
+/*👉
   .contact__info {
     grid-template-columns: 430px;
     gap: 1rem;
-  }
+  }👈*/
 
   .contact__form {
     width: 430px;
@@ -1206,14 +1206,14 @@ body.light-theme {
     height: 18rem;
   }
 
-  .contact__container {
+  /*👉.contact__container {
     grid-template-columns: repeat(2, 430px);
     column-gap: 6rem;
   }
-
+👈*/
   .footer__social-link {
     font-size: 1.25rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
   }
-}
+} 
